@@ -1,1 +1,106 @@
-const _0x242db8=_0x1569;(function(_0x497905,_0x39dd28){const _0x389973=_0x1569,_0x500111=_0x497905();while(!![]){try{const _0x19f491=parseInt(_0x389973(0x139))/(-0x92f+-0x1d48+0x2678)*(-parseInt(_0x389973(0x165))/(-0x18b7*-0x1+-0x1fe9+0x734))+parseInt(_0x389973(0x148))/(0x39*-0x3a+0x1*0x202d+-0x1340)+parseInt(_0x389973(0x13e))/(-0x10*-0xd8+0xa7b*-0x1+-0x301*0x1)+-parseInt(_0x389973(0x150))/(0x1638+0x31*-0x72+-0x61)+parseInt(_0x389973(0x16b))/(0x1783+-0xd*-0xb7+-0x20c8)*(-parseInt(_0x389973(0x118))/(0xb*0x1ac+0x560+0x17bd*-0x1))+parseInt(_0x389973(0x13c))/(-0x521*0x7+0x25e7+-0x1f8)*(parseInt(_0x389973(0x143))/(0x1*0x1575+-0x219*-0x4+0x30*-0x9f))+-parseInt(_0x389973(0x15c))/(-0x5b*-0x3e+-0x14d4+-0x5*0x3c);if(_0x19f491===_0x39dd28)break;else _0x500111['push'](_0x500111['shift']());}catch(_0x989a9a){_0x500111['push'](_0x500111['shift']());}}}(_0x3651,0x4697*0x2+0x1691*0x24+0x105ad));import{CreateWebWorkerMLCEngine}from'https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.78/+esm';const $=_0xc21570=>document[_0x242db8(0x138)+_0x242db8(0x15b)](_0xc21570),$form=$(_0x242db8(0x162)),$input=$(_0x242db8(0x117)),$template=$(_0x242db8(0x15a)+_0x242db8(0x11b)),$messages=$('ul'),$container=$(_0x242db8(0x137)),$button=$(_0x242db8(0x14a)),$info=$(_0x242db8(0x15d)),$loading=$(_0x242db8(0x12a));let messages=[],end=![];function _0x3651(){const _0x2107a3=['17646kwGwJu','choices','Llama-3.2-','Asistente','input','413MZfUsF','completion','MLC','emplate','preventDef','setAttribu','hnzuM','stener','IEJsp','user','znaXB','delta','scrollTop','¿Por\x20favor','focus','AvLhL','ibute','ault','.loading','XDhtp','HWJsq','removeChil','1B-Instruc','progress','jlGQC','nte\x20medico','\x20virtual.\x20','SuUnP','add','cCgTD','disabled','main','querySelec','19322OTXOqL','EMJyF','appendChil','48mVgMtz','t-q4f16_1-','1886904YtDRZt','value','SXaZk','\x20tu\x20asiste','assistant','766629YeGdvt','¡Hola!\x20Soy','submit','sVUDS','span','585180gVTahn','addEventLi','button','scrollHeig','split','3|1|2|0|4','\x20escribe\x20t','parentNode','1082875ExeSJD','cloneNode','module','create','trim','yRLeG','push','removeAttr','chat','us\x20sintoma','#message-t','tor','1482010CUUoPg','small','bot','NInHD','AcHim','text','form','VjjoK','classList','34xoGAso','.message','./worker.j','ZtXxj','textConten','content'];_0x3651=function(){return _0x2107a3;};return _0x3651();}function _0x1569(_0x20995c,_0x339758){const _0x42ca98=_0x3651();return _0x1569=function(_0x52dc2d,_0x5899da){_0x52dc2d=_0x52dc2d-(-0x7c2*0x1+-0x1c91+-0x1*-0x256a);let _0xcd0fb4=_0x42ca98[_0x52dc2d];return _0xcd0fb4;},_0x1569(_0x20995c,_0x339758);}const SELECTED_MODEL=_0x242db8(0x16d)+_0x242db8(0x12e)+_0x242db8(0x13d)+_0x242db8(0x11a),engine=await CreateWebWorkerMLCEngine(new Worker(_0x242db8(0x167)+'s',{'type':_0x242db8(0x152)}),SELECTED_MODEL,{'initProgressCallback':_0x5337eb=>{const _0x3a50e7=_0x242db8,_0x1ce5e9={'znaXB':function(_0x2dabdd,_0x5d3b0a){return _0x2dabdd===_0x5d3b0a;},'yRLeG':_0x3a50e7(0x14d),'VjjoK':function(_0x442df2,_0x3c6599,_0x396e86){return _0x442df2(_0x3c6599,_0x396e86);},'SuUnP':_0x3a50e7(0x144)+_0x3a50e7(0x141)+_0x3a50e7(0x131)+_0x3a50e7(0x132)+_0x3a50e7(0x125)+_0x3a50e7(0x14e)+_0x3a50e7(0x159)+'s?','HWJsq':_0x3a50e7(0x15e),'NInHD':_0x3a50e7(0x136)};$info[_0x3a50e7(0x169)+'t']=_0x5337eb[_0x3a50e7(0x161)];if(_0x1ce5e9[_0x3a50e7(0x122)](_0x5337eb[_0x3a50e7(0x12f)],0xc83*-0x1+0x8cd+0x1*0x3b7)&&!end){const _0x5624d1=_0x1ce5e9[_0x3a50e7(0x155)][_0x3a50e7(0x14c)]('|');let _0x6623d8=0x1*0x1fe7+-0x1e25+-0x1c2;while(!![]){switch(_0x5624d1[_0x6623d8++]){case'0':_0x1ce5e9[_0x3a50e7(0x163)](addMessage,_0x1ce5e9[_0x3a50e7(0x133)],_0x1ce5e9[_0x3a50e7(0x12c)]);continue;case'1':$loading?.[_0x3a50e7(0x14f)]?.[_0x3a50e7(0x12d)+'d']($loading);continue;case'2':$button[_0x3a50e7(0x157)+_0x3a50e7(0x128)](_0x1ce5e9[_0x3a50e7(0x15f)]);continue;case'3':end=!![];continue;case'4':$input[_0x3a50e7(0x126)]();continue;}break;}}}});$form[_0x242db8(0x149)+_0x242db8(0x11f)](_0x242db8(0x145),async _0x459555=>{const _0x427a34=_0x242db8,_0x1aaf6f={'IEJsp':function(_0x30bf67,_0x6b5f13){return _0x30bf67!==_0x6b5f13;},'AcHim':function(_0x58af7a,_0xc019de,_0x27a0d){return _0x58af7a(_0xc019de,_0x27a0d);},'EMJyF':_0x427a34(0x121),'ZtXxj':_0x427a34(0x136),'jlGQC':_0x427a34(0x15e),'XDhtp':_0x427a34(0x142)};_0x459555[_0x427a34(0x11c)+_0x427a34(0x129)]();const _0x27d6fe=$input[_0x427a34(0x13f)][_0x427a34(0x154)]();_0x1aaf6f[_0x427a34(0x120)](_0x27d6fe,'')&&($input[_0x427a34(0x13f)]='');_0x1aaf6f[_0x427a34(0x160)](addMessage,_0x27d6fe,_0x1aaf6f[_0x427a34(0x13a)]),$button[_0x427a34(0x11d)+'te'](_0x1aaf6f[_0x427a34(0x168)],'');const _0x3b9d3a={'role':_0x1aaf6f[_0x427a34(0x13a)],'content':_0x27d6fe};messages[_0x427a34(0x156)](_0x3b9d3a);const _0x5efe25=await engine[_0x427a34(0x158)][_0x427a34(0x119)+'s'][_0x427a34(0x153)]({'messages':messages,'stream':!![]});let _0x49bfdb='';const _0x46eec8=_0x1aaf6f[_0x427a34(0x160)](addMessage,'',_0x1aaf6f[_0x427a34(0x130)]);for await(const _0x57fbf0 of _0x5efe25){const _0x2c2f79=_0x57fbf0[_0x427a34(0x16c)][-0xa27*-0x2+0x157b+-0x29c9],_0x4f16fa=_0x2c2f79?.[_0x427a34(0x123)]?.[_0x427a34(0x16a)]??'';_0x49bfdb+=_0x4f16fa,_0x46eec8[_0x427a34(0x169)+'t']=_0x49bfdb;}$button[_0x427a34(0x157)+_0x427a34(0x128)](_0x1aaf6f[_0x427a34(0x168)]),messages[_0x427a34(0x156)]({'role':_0x1aaf6f[_0x427a34(0x12b)],'content':_0x49bfdb}),$container[_0x427a34(0x124)]=$container[_0x427a34(0x14b)+'ht'];});function addMessage(_0xa58376,_0x5b9bf4){const _0xfc870e=_0x242db8,_0x275555={'SXaZk':_0xfc870e(0x166),'sVUDS':_0xfc870e(0x147),'AvLhL':function(_0x174561,_0x26f06d){return _0x174561===_0x26f06d;},'cCgTD':_0xfc870e(0x15e),'hnzuM':_0xfc870e(0x16e)},_0xc0d5b8=$template[_0xfc870e(0x16a)][_0xfc870e(0x151)](!![]),_0x1233fd=_0xc0d5b8[_0xfc870e(0x138)+_0xfc870e(0x15b)](_0x275555[_0xfc870e(0x140)]),_0x3a86a4=_0x1233fd[_0xfc870e(0x138)+_0xfc870e(0x15b)](_0x275555[_0xfc870e(0x146)]),_0x389d4a=_0x1233fd[_0xfc870e(0x138)+_0xfc870e(0x15b)]('p');return _0x389d4a[_0xfc870e(0x169)+'t']=_0xa58376,_0x3a86a4[_0xfc870e(0x169)+'t']=_0x275555[_0xfc870e(0x127)](_0x5b9bf4,_0x275555[_0xfc870e(0x135)])?_0x275555[_0xfc870e(0x11e)]:'Tú',_0x1233fd[_0xfc870e(0x164)][_0xfc870e(0x134)](_0x5b9bf4),$messages[_0xfc870e(0x13b)+'d'](_0x1233fd),$container[_0xfc870e(0x124)]=$container[_0xfc870e(0x14b)+'ht'],_0x389d4a;}
+/* 
+    en el vídeo usamos "https://esm.run/@mlc-ai/web-llm"
+    el problema es que eso siempre es la versión más reciente
+    en el código usamos https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.46/+esm
+    para fijar la versión */
+
+//import { CreateWebWorkerMLCEngine } from "https://esm.run/@mlc-ai/web-llm"
+import { CreateWebWorkerMLCEngine } from "https://cdn.jsdelivr.net/npm/@mlc-ai/web-llm@0.2.78/+esm"
+
+const $ = el => document.querySelector(el)
+
+// pongo delante de la variable un símbolo de $
+// para indicar que es un elemento del DOM
+const $form = $('form')
+const $input = $('input')
+const $template = $('#message-template')
+const $messages = $('ul')
+const $container = $('main')
+const $button = $('button')
+const $info = $('small')
+const $loading = $('.loading')
+
+let messages = []
+let end = false
+
+const SELECTED_MODEL = 'Llama-3.2-1B-Instruct-q4f16_1-MLC';// vram_required_MB: 879.04
+//const SELECTED_MODEL = 'Llama-3-8B-Instruct-q4f32_1-MLC-1k' // vram_required_MB: 5295.7
+
+const engine = await CreateWebWorkerMLCEngine(
+    new Worker('./worker.js', { type: 'module' }),
+    SELECTED_MODEL,
+    {
+        initProgressCallback: (info) => {
+            $info.textContent = info.text
+            if (info.progress === 1 && !end) {
+                end = true
+                $loading?.parentNode?.removeChild($loading)
+                $button.removeAttribute('disabled')
+                addMessage("¡Hola! Soy tu asistente medico virtual. ¿Por favor escribe tus sintomas?", 'bot')
+                $input.focus()
+            }
+        }
+    }
+)
+
+$form.addEventListener('submit', async (event) => {
+    event.preventDefault()
+    const messageText = $input.value.trim()
+
+    if (messageText !== '') {
+        // añadimos el mensaje en el DOM
+        $input.value = ''
+    }
+
+    addMessage(messageText, 'user')
+    $button.setAttribute('disabled', '')
+
+    const userMessage = {
+        role: 'user',
+        content: messageText
+    }
+
+    messages.push(userMessage)
+
+    const chunks = await engine.chat.completions.create({
+        messages,
+        stream: true
+    })
+
+    let reply = ""
+
+    const $botMessage = addMessage("", 'bot')
+
+    for await (const chunk of chunks) {
+        const choice = chunk.choices[0]
+        const content = choice?.delta?.content ?? ""
+        reply += content
+        $botMessage.textContent = reply
+    }
+
+    $button.removeAttribute('disabled')
+    messages.push({
+        role: 'assistant',
+        content: reply
+    })
+    $container.scrollTop = $container.scrollHeight
+})
+
+function addMessage(text, sender) {
+    // clonar el template
+    const clonedTemplate = $template.content.cloneNode(true)
+    const $newMessage = clonedTemplate.querySelector('.message')
+
+    const $who = $newMessage.querySelector('span')
+    const $text = $newMessage.querySelector('p')
+
+    $text.textContent = text
+    $who.textContent = sender === 'bot' ? 'Asistente' : 'Tú'
+    $newMessage.classList.add(sender)
+
+    $messages.appendChild($newMessage)
+
+    $container.scrollTop = $container.scrollHeight
+
+    return $text
+}
