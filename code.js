@@ -23,8 +23,8 @@ const $loading = $('.loading')
 let messages = []
 let end = false
 
-const SELECTED_MODEL = 'Llama-3.2-1B-Instruct-q4f16_1-MLC';// vram_required_MB: 879.04
-//const SELECTED_MODEL = 'Llama-3-8B-Instruct-q4f32_1-MLC-1k' // vram_required_MB: 5295.7
+//const SELECTED_MODEL = 'Llama-3.2-1B-Instruct-q4f16_1-MLC';// vram_required_MB: 879.04
+const SELECTED_MODEL = 'Llama-3-8B-Instruct-q4f32_1-MLC-1k' // vram_required_MB: 5295.7
 
 const engine = await CreateWebWorkerMLCEngine(
     new Worker('./worker.js', { type: 'module' }),
